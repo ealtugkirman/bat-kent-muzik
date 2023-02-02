@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 // import data
 import { interviewData } from '../data';
 // import modal video
-import ModalVideo from 'react-modal-video';
-import '../modalVideo.scss';
+// import ModalVideo from 'react-modal-video';
+// import '../modalVideo.scss';
 // import motion
 import { motion } from 'framer-motion';
 // import variants
@@ -50,13 +50,13 @@ const Interview = () => {
               </div>
             </motion.div>
             {/* modal video */}
-            <ModalVideo
+            {/* <ModalVideo
               channel='youtube'
               autoplay
               isOpen={isOpen}
               videoId='VgcyiunC8iE'
               onClose={() => setOpen(false)}
-            />
+            /> */}
           </div>
         </div>
       </div>
