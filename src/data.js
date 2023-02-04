@@ -16,7 +16,7 @@ import { FiSend } from 'react-icons/fi';
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
   IoLogoInstagram,
-  IoLogoPinterest,
+  // IoLogoPinterest,
   IoLogoTwitter,
   IoLogoYoutube,
 } from 'react-icons/io';
@@ -28,7 +28,7 @@ export const headerData = {
 export const navData = {
   items: [
     { href: '/', name: 'Ana Sayfa' },
-    { href: '/', name: 'Hakkımda' },
+    { href: 'about', name: 'Hakkımda' },
     { href: '/', name: 'Galeri' },
     { href: '/', name: 'İçerik' },
     { href: '/', name: 'İletişim' },
@@ -38,7 +38,7 @@ export const navData = {
 export const socialData = [
   { href: '/', icon: <GrFacebookOption /> },
   { href: '/', icon: <IoLogoInstagram /> },
-  { href: '/', icon: <IoLogoPinterest /> },
+  // { href: '/', icon: <IoLogoPinterest /> },
   { href: '/', icon: <IoLogoTwitter /> },
   { href: '/', icon: <IoLogoYoutube /> },
 ];

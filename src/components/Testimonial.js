@@ -14,13 +14,14 @@ import { fadeIn } from '../variants';
 export const Testimonial = () => {
   return (
     <motion.section
+    id='icerik'
       variants={fadeIn('up')}
       initial='hidden'
       whileInView={'show'}
       viewport={{ once: false, amount: 0.2 }}
       className='pb-[40px] pt-[40px] lg:pb-[160px] lg:pt-0'
     >
-      <div className='container mx-auto'>
+      <div className='container mt-32 mx-auto' >
         <Swiper>
           {testimonialData.map((slide, index) => {
             // destructure slide
@@ -28,7 +29,7 @@ export const Testimonial = () => {
             return (
               <SwiperSlide key={index}>
                 <div className='max-w-[1200px] mx-auto flex flex-col items-center lg:flex-row lg:items-start gap-x-[38px]'>
-                  <div className='w-[154px]  h-[109px] mb-5'>
+                  <div className='w-[154px]  h-[109px] mb-16 lg:mb-5'>
                     <img src={quoteImg} className='rounded-full' alt='' />
                   </div>
                   <div className='flex-1 lg:mt-[54px]'>
