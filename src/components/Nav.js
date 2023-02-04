@@ -12,7 +12,7 @@
 //           return (
 //             <li key={index}>
 //               <a
-//                 className='link hover:border-b-2 hover:border-dark transition duration-300'
+//                 className='link hover:border-b-2 px-4  hover:border-dark transition duration-300'
 //                 href={item.href}
 //               >
 //                 {item.name}
@@ -39,19 +39,19 @@ const Nav = () => {
     <nav>
       <ul className='flex  link hover:border- hover:border-dark transition duration-300 gap-x-[58px]'>
             <li>
-            <Link to='/' className='link hover:border- hover:border-dark transition duration-300'>
+            <Link to='/' className='link hover:border- ho px-4 ver:border-dark transition duration-300'>
                 Ana Sayfa
                 </Link>
-                <Link to='about'  className='link hover:border-b-2 hover:border-dark transition duration-300'>
+                <Link to='about'  className='link hover:border-b-2 px-4  hover:border-dark transition duration-300'>
                 Hakkımda
                 </Link>
-                <Link to='gallery' className='link hover:border-b-2 hover:border-dark transition duration-300'>
+                <Link to='gallery' className='link hover:border-b-2 px-4  hover:border-dark transition duration-300'>
                 Öğrencilerim
                 </Link>
-              <Link to='icerik'   className='link hover:border-b-2 hover:border-dark transition duration-300'>
+              <Link to='icerik'   className='link hover:border-b-2 px-4  hover:border-dark transition duration-300'>
                 İçerik
                 </Link>
-                <Link to='contact'  className='link hover:border-b-2 hover:border-dark transition duration-300'>
+                <Link to='contact'  className='link hover:border-b-2 px-4  hover:border-dark transition duration-300'>
                 İletişim
                 </Link>
             </li>
